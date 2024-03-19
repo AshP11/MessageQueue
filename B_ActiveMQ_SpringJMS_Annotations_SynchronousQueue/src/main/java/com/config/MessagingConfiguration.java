@@ -28,7 +28,7 @@ public class MessagingConfiguration {
     public JmsTemplate jmsTemplate() {
         JmsTemplate template = new JmsTemplate();
         template.setConnectionFactory(connectionFactory());
-        template.setDefaultDestinationName(MESSAGE_QUEUE);
+//        template.setDefaultDestinationName(MESSAGE_QUEUE);
         return template;
     }
 
